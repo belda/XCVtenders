@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.bak
+*.swp
+.env
+.env.*
+venv/
+.idea/
