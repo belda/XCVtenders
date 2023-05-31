@@ -1,4 +1,4 @@
-from apiimporter.client import tenders_guru_client
+from libs.tenders_guru.client import tenders_guru_client
 
 
 def test_client():
