@@ -1,13 +1,12 @@
 # XCV Tenders
 
-A dummy application that stores government tenders.
+An application that stores government tenders.
 
 
 ## TASK
-1. BUG: When we look at http://localhost:8000/admin/tenders/tender/ we see the tenders there multiple times.
-2. We want to import tenders from https://tenders.guru/pl  API. We want to run the importer daily.
-3. We want to store the reward for the tender in Bitcoin. Zloty or Euro's are not as much fun
-4. We want to display the BTC reward in the admin panel.
+1. BUG: When we look at http://localhost:8000/admin/tenders/tender/ after multiple imports we see the same tenders multiple times there.
+2. We want to store the reward for the tender in Bitcoin. Zloty or Euro's are not as much fun
+3. We want to display the BTC reward in the admin panel.
 
 ## Installation
 
@@ -37,7 +36,7 @@ Visit (http://localhost:8000/admin/tenders/tender/)
 
 ## Importer is run daily and executes:
 ```bash
-python manage.py dummyimporter
+python manage.py import_tenders
 ```
 
 
