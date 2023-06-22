@@ -2,6 +2,10 @@ import requests
 
 
 class TendersGuruClient:
+    """
+    Client to retrieve tenders from Tenders Guru API.
+    doc: https://tenders.guru/pl/api
+    """
 
     base_url = 'https://tenders.guru/api/'
     country = 'pl'  # TODO: expand for more sites
