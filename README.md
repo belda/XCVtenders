@@ -43,7 +43,7 @@ python manage.py import_tenders
 ## Useful links
 + [Django documentation](https://docs.djangoproject.com/en/3.1/)
 + [Polish tenders API](https://tenders.guru/pl/api)
-+ [CoinPaprika API](https://api.coinpaprika.com/)
++ [CoinCap API](https://docs.coincap.io/)
 
 
 
