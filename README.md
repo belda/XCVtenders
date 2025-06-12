@@ -43,7 +43,7 @@ python manage.py import_tenders
 ## Useful links
 + [Django documentation](https://docs.djangoproject.com/en/3.1/)
 + [Polish tenders API](https://tenders.guru/pl/api)
-+ [CoinCap API](https://docs.coincap.io/)
++ [Get BTC Price](https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=eur)
 
 
 
